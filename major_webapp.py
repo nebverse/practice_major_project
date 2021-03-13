@@ -1,12 +1,12 @@
 from tensorflow import keras
 from tensorflow.keras.applications.inception_v3 import InceptionV3,preprocess_input,decode_predictions
-from keras.preprocessing import image
+from tensorflow.keras.preprocessing import image
 import numpy as np
 import streamlit as st
 from PIL import Image
 import cv2
 import os
-from keras.models import model_from_json
+from tensorflow.keras.models import model_from_json
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 
 @st.cache()
