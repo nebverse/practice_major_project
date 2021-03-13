@@ -1,6 +1,5 @@
 from tensorflow import keras
 from tensorflow.keras.applications.inception_v3 import InceptionV3,preprocess_input,decode_predictions
-import matplotlib.pyplot as plt
 from keras.preprocessing import image
 import numpy as np
 import streamlit as st
